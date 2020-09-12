@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrapper .header{
+    width: 100%;
+    float: left;
+    margin: 50px 0;
+}
+.wrapper .header .logo{
+    width: 30%;
+    float: left;
+}
+.wrapper .header .menu{
+    width: 70%;
+    float: right;
+}
+ul{
+    text-align: right;
+}
+.wrapper .header .menu li{
+    display: inline-block;
+    margin-left: 80px; 
+}
+.wrapper .header .menu li a{
+    color: #8A8A8A;
+    font-size: 24px; 
+}
+.banner{
+    width: 100%;
+}
+.banner .banner-pic img{
+    width: 100%;
+}
+.banner .banner-body{
+    text-align: justify;
+    margin: 85px;
+    color: #8A8A8A;
+}
+.banner-body h2{
+    margin: 25px 0;
+}
+.banner .banner-body span{
+    text-transform: uppercase;
+}
+.wrapper .gallery{
+    width: 1100px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.gallery img{
+    width: 100%;
+}
+.gallery span{
+    display: inline-block;
+    margin-top: 25px;
+}
+.gallery h2{
+    margin:20px 0;
+}
+.gallery p{
+    text-align: justify;
+}
+.gallery .upper-cont{
+    width: 100%;
+}
+.gallery .left-cont{
+    width: 47%;
+    float: left;
+    margin-bottom: 85px;
+}
+.gallery .right-cont{
+    width: 47%;
+    float: right;
+    margin-bottom: 85px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: #F0F0F0;
+    overflow: hidden;
+}
+.contract {
+    width: 100%;
+    text-align: center;
+    padding: 95px 0;
+}
+.contract h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.contract form{
+    position: relative;
+}
+.contract form input{
+    border: none;
+    border-bottom: 2px solid #1E1E1E;
+    width: 30%;
+    padding: 15px 0;
+    background: transparent;
+}
+form i{
+    position: absolute;
+    top: 17px;
+    right: 35.2%;
+    cursor: pointer;
+}
+.blog .upper-cont{
+    width: 1050px;
+    margin: 0 auto;
+    padding: 65px 0
+}
+.blog .upper-cont img{
+    width: 100%;
+}
+.blog .left-cont{
+    width: 47%;
+    float: left;
+}
+.blog .right-cont{
+    width: 47%;
+    float: right;
+}
+.blog h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.blog span{
+    display: inline-block;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+.blog p{
+    text-align: justify;
+}
+.btn {
+    width: 100%;
+    padding: 115px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.btn button{
+    padding: 15px 35px;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 2px;
+    color: #8A8A8A;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer{
+    width: 100%;
+    float: left;
+    padding: 40px;
+}
+.left-foot{
+    width: 40%;
+    float: left;
+}
+.left-foot a{
+    margin-left: 30px;
+}
+.right-foot{
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+.right-foot i{
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+
